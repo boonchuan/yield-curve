@@ -1,0 +1,3 @@
+Optional directory for frozen CSV snapshots of the FRED series, for exact replication.
+
+If you populate this, add the files here and update .gitignore accordingly.

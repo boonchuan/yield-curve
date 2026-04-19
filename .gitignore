@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+yc-env/
+.venv/
+
+# Node
+node_modules/
+package-lock.json
+
+# Analysis artifacts / intermediate outputs
+analysis_data.csv
+horizon_results.csv
+episodes.csv
+monthly_panel.csv
+monthly_panel_full.csv
+daily_panel.csv
+analysis_output.txt
+episode_output.txt
+robustness_output.txt
+zscore_output.txt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Large data we don't want in git (add manually if needed)
+# data-snapshot/*.csv
